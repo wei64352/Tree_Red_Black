@@ -1,9 +1,9 @@
-﻿已經開始建置於 2016/4/10 下午 05:21:38。
+﻿已經開始建置於 2016/4/10 下午 06:03:45。
      1>節點 2 (Build 目標) 上的專案 "C:\Users\Labs_Laing\Desktop\C++\Tree\Red_Black_Tree\Red_Black_Tree\Red_Black_Tree.vcxproj"。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\labs_laing\desktop\c++\tree\red_black_tree\red_black_tree\main.cpp(320): warning C4715: 'Binary_search' : 不是所有控制路徑都傳回值
+     1>c:\users\labs_laing\desktop\c++\tree\red_black_tree\red_black_tree\main.cpp(305): warning C4715: 'Binary_search' : 不是所有控制路徑都傳回值
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Labs_Laing\Desktop\C++\Tree\Red_Black_Tree\Debug\Red_Black_Tree.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Labs_Laing\Desktop\C++\Tree\Red_Black_Tree\Debug\Red_Black_Tree.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Labs_Laing\Desktop\C++\Tree\Red_Black_Tree\Debug\Red_Black_Tree.lib" /MACHINE:X86 Debug\main.obj
          Red_Black_Tree.vcxproj -> C:\Users\Labs_Laing\Desktop\C++\Tree\Red_Black_Tree\Debug\Red_Black_Tree.exe
@@ -11,4 +11,4 @@
 
 建置成功。
 
-經過時間 00:00:00.32
+經過時間 00:00:00.34

@@ -84,12 +84,12 @@ tree_node* Build_tree(int* data_buf, int size, tree_node* root){
 	}
 	root = rt_ptr->point;
 	if (index != 0){
-		printf("\n\nRepeated data: %d", re_data[0]);
+		printf(" data: %d\n\n", re_data[0]);
 		for (int i = 1; i < index; i++){
 			printf(", %d", re_data[i]);
 		}
 	}else{
-		printf("\n\nNo repeated...");
+		printf("No repeated...\n\n");
 	}
 	free(rt_ptr);
 	free(ptr);
@@ -313,11 +313,11 @@ void DF_search(tree_node* node, FILE* fout){
 	if (node->l_chlid != NULL){
 		DF_search(node->l_chlid, fout);
 		printf("%d, %d\n", node->value, node->color);
-		//fprintf(fout, "%d, %d\n", node->value, node->color);
+		fprintf(fout, "%d, %d\n", node->value, node->color);
 		if (node->r_chlid != NULL){ DF_search(node->r_chlid, fout); }
 	}else{
 		printf("%d, %d\n", node->value, node->color);
-		//fprintf(fout, "%d, %d\n", node->value, node->color);
+		fprintf(fout, "%d, %d\n", node->value, node->color);
 		if (node->r_chlid != NULL){ DF_search(node->r_chlid, fout); }
 	}
 }
